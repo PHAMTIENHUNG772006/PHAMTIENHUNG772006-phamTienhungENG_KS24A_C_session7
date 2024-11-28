@@ -5,11 +5,6 @@ int main(){
 	scanf("%d", &row);
 	printf("hay nhap so cot cua ma tran : ");
 	scanf("%d", &col);
-	if( row < 1 || col < 1){
-		printf("moi ban nhap lai du lieu ");
-		return 1;
-		
-	}
 	int maTran[row][col];
 	
 	for ( int i = 0 ; i < row ; i++){
@@ -25,7 +20,7 @@ int main(){
 			printf(" \t%d ",maTran[i][j]);
 	}
 	printf("\n");
-	
+		
  }
 	return 0;
 }
